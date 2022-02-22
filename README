@@ -1,2 +1,2 @@
 This is first version of my INVENTORY STORE.
-Currently implementing the logic for inventory store transfer.
+Inventory can be transferred to another ecovian by just transferring the inventory id to db of another ecovian & deleting it from the db of first one.
