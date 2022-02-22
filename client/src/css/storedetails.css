@@ -1,0 +1,136 @@
+.storedetails {
+    height : 100vh ; 
+    width : 100vw ; 
+    /* background-color: lawngreen; */
+
+    overflow: hidden ;
+}
+.storedetails-cover{
+    height : 100vh ; 
+    width : 101.3vw ; 
+    /* background-color: lavender; */
+
+    overflow-x: hidden;
+    overflow-y:scroll ;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.gobackhome{
+    position: absolute;
+    top : 10px ; 
+    right : 10px ; 
+    height : 50px ; 
+    width : 120px ; 
+    background-color: plum;
+    text-align: center;
+    line-height: 50px;
+    font-size : 1.3rem ;
+    cursor: pointer;
+}
+.storedetails-adder {
+    width : 100% ; 
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left : 30px ; 
+    padding-top : 40px ; 
+}
+.storedetails-adder-form {
+    height : 0px ; 
+    width : 80% ;
+    display: flex;
+    flex-direction: column;
+    transition : 1s ;
+    overflow: hidden;
+}
+.storedetails-adder-form > div > input {
+    height : 40px ; 
+    width : 200px ; 
+    border-radius : 40px ; 
+    padding-left : 20px ; 
+    font-size : 1.1rem ; 
+}
+
+.storedetails-adder-button{
+    height : 50px ; 
+    width : 500px ; 
+
+    display: flex;
+    flex-direction: row;
+    transition : 1s ;
+}
+
+.storedetails-adder-button-cancel , 
+.storedetails-adder-button-add {
+    height : 100% ; 
+    width : 200px ; 
+    margin-right : 50px ; 
+    border : 1px solid black ; 
+    text-align: center;
+    line-height: 50px;
+    font-size : 1.4rem ;
+    transition : 1s ;
+    margin-left : 10px ; 
+    cursor: pointer;
+}
+
+.storedetails-totalBags{
+    height : 70px ; 
+    width : 100% ; 
+    box-sizing: border-box;
+    /* border-bottom : 1px solid black ; */
+    padding-left : 30px ; 
+
+    font-size : 2rem ;
+    line-height: 80px ; 
+}
+
+.storedetails-damagedBags , 
+.storedetails-repairedBags,
+.storedetails-readyBags{
+    margin-top : 20px ; 
+    width : 100% ; 
+    box-sizing: border-box;
+    color : white ; 
+}
+.storedetails-damagedBags-heading  , 
+.storedetails-repairedBags-heading , 
+.storedetails-readyBags-heading {
+    height : 50px ; 
+    width : 100% ;
+    font-size : 2rem ; 
+    padding-left : 30px ; 
+    text-decoration: underline;
+    text-decoration-color: black;
+    color : black ;
+}
+.storedetails-damagedBags-bags , 
+.storedetails-repairedBags-bags , 
+.storedetails-readyBags-bags {
+    width : 100% ; 
+    padding-left : 30px ; 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.storedetails-damagedBags-bags  div ,  
+.storedetails-repairedBags-bags  div , 
+.storedetails-readyBags-bags  div {
+    height : 40px ; 
+    width : 200px ; 
+    margin : 20px ; 
+    background-color: wheat;
+    color : black ;
+    cursor: pointer;
+}
+
+.linky {
+    text-decoration: none;
+    color : black ; 
+}

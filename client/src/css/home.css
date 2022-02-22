@@ -1,0 +1,190 @@
+.loggedInHome{
+    height : 100vh ; 
+    width : 100vw ; 
+    /* background-color: red; */
+    box-sizing: border-box;
+
+    margin : 0px ; 
+    padding : 0px ; 
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+}
+.loggedInHome-addStore{
+    width : 100% ; 
+    /* background-color: yellow; */
+    box-sizing: border-box;
+
+    transition: 1s;
+    padding-left : 50px ; 
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+}
+.logoutButton{
+    height : 40px ; 
+    width : 100px ; 
+    background-color: red;
+    color : white ; 
+    text-align: center;
+    line-height: 40px;
+    font-size : 1.3rem ;
+    cursor: pointer;
+    padding : 10px ; 
+
+    position: absolute;
+    right : 20px ; 
+    top : 40px ; 
+}
+
+.loggedInHome-addStore-form{
+    height : 0px ; 
+    width : 80% ; 
+    /* background-color: brown; */
+    margin-top : 50px ; 
+    transition: 1s;
+    overflow: hidden;
+}
+.loggedInHome-addStore-form-detail{
+    height : 50px ; 
+    /* background-color: aqua ; */
+    /* padding-left : 30px ;  */
+    
+}
+.loggedInHome-addStore-form-detail input {
+    height : 40px ; 
+    width : 500px ; 
+    border-radius : 40px ; 
+    padding-left : 20px ; 
+    font-size : 1.3rem ;
+
+}
+
+
+.loggedInHome-addStore-button{
+    height : 50px ; 
+    width : 600px ; 
+    /* background-color: blueviolet; */
+    margin-top : 20px ;
+    margin-bottom : 30px ; 
+    transition: 1s;
+    font-size : 1.3rem ;
+    text-align: center;
+    line-height : 50px ; 
+
+    display: flex;
+    flex-direction: row;  
+} 
+
+.loggedInHome-addStore-button-addStore , 
+.loggedInHome-addStore-button-cancel , 
+.loggedInHome-addStore-button-add {
+    margin-right : 40px ; 
+
+    border : 1px solid black ; 
+    padding-right : 20px ; 
+    padding-left : 20px ; 
+}
+
+
+
+
+.loggedInHome-showStore{
+  
+    width : 101% ; 
+    /* background-color: blue; */
+    box-sizing: border-box;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+   
+
+}
+
+.loggedInHome-showStore-store{
+    height : 300px ; 
+    width : 300px ; 
+    background-color: bisque;
+    margin : 10px ; 
+    font-size : 1.5rem ; 
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loggedInHome-showStore-details{
+    height : 80% ; 
+    width : 100% ; 
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loggedInHome-showStore-details>div{
+    font-size : 1.5rem ;
+}
+.loggedInHome-showStore-details span{
+    font-size : 1rem ;
+    font-style: italic;
+    color : rebeccapurple
+}
+.loggedInHome-showStore-button {
+    height : 20% ; 
+    width : 100% ; 
+    background-color: goldenrod;
+    text-align: center;
+    line-height: 60px;
+    font-size : 1.8rem ;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* Logged out Home */
+/* ****************************************************** */
+.loggedOutHome{
+    height : 100vh ; 
+    width : 100vw ; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.loggedOutHome div {
+    height : 50px ; 
+    width : 200px ; 
+    margin : 10px ; 
+    color : white ; 
+    font-size : 2rem ;
+    text-align: center;
+    line-height: 50px;
+}
+.loggedOutHome-signup{
+    background-color: green; 
+}
+.loggedOutHome-login{
+    background-color: blue; 
+}
+
+.linky{
+    text-decoration: none;
+}
