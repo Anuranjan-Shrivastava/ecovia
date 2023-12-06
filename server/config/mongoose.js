@@ -3,7 +3,8 @@ const mongoose = require('mongoose') ;
 mongoose.connect('mongodb://localhost/InventoryStore' , 
  {
     useUnifiedTopology : true ,
-    useNewUrlParser : true
+    useNewUrlParser : true,
+     family: 4,
  }) ;
 
  const db = mongoose.connection ; 
