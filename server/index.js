@@ -10,7 +10,7 @@ const passport_jwt = require('./config/passport-jwt') ; ;
 
 
 //middleware 
-app.use(cors({origin: 'https://ecovia-frontend.vercel.app'}));
+app.use(cors({ origin: '*' }));
 app.use(express.json()) ;
 app.use(express.urlencoded({
     extended : false  , 
