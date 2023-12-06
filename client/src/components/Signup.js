@@ -51,7 +51,7 @@ class Signup extends React.Component{
        }
        //Please Match Password and confirm Password
        const formBody = {name ,email , password , city , state , country , addr , contact } ;
-       let url = "http://localhost:8000/user/signup" ;
+       let url = "https://ecovia-backend.vercel.app/user/signup" ;
        let options = {
            method : "POST" , 
            headers : {

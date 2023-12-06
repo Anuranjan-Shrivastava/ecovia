@@ -69,7 +69,7 @@ class Storedetails extends Component {
             return ;
         }
         let inventoryId = this.props.inventory.store._id ;
-        let url = "http://localhost:8000/inventory/addBag" ;
+        let url = "https://ecovia-backend.vercel.app/inventory/addBag" ;
         let token = localStorage.getItem('token') ;
         let options = {
             method : "POST" , 

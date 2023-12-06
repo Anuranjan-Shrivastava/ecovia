@@ -30,7 +30,7 @@ class Bags extends Component {
     changeStatus = (status) => {
         console.log(status) ; 
         if(this.props.bags.bag.status === status)return ;
-        let url = "http://localhost:8000/inventory/changeStatus" ; 
+        let url = "https://ecovia-backend.vercel.app/inventory/changeStatus" ; 
         let token = localStorage.getItem('token') ;
         const options =  {
             method : "POST" , 

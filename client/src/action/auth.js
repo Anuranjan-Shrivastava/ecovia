@@ -30,7 +30,7 @@ export function loginUser(email , password){
 
 
     return (dispatch) => {
-        const url = 'http://localhost:8000/user/login' ;
+        const url = 'https://ecovia-backend.vercel.app/user/login' ;
         fetch(url , {
             method : "POST" ,
             credentials: 'same-origin',

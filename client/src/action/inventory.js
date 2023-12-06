@@ -7,7 +7,7 @@ import {
 export function fetchBagDetail(uuid){
     console.log("In Action", uuid) ;
     return (dispatch) => {
-        let url = "http://localhost:8000/inventory/fetchBagDetail" ; 
+        let url = "https://ecovia-backend.vercel.app/inventory/fetchBagDetail" ; 
         let token = localStorage.getItem('token') ;
         const options =  {
             method : "POST" , 
@@ -36,7 +36,7 @@ function fetchinBagDetailSuccess(bag){
 
 export function fetchInventoryDetail(id){
     return (dispatch) => {
-        let url = "http://localhost:8000/inventory/fetchDetail" ; 
+        let url = "https://ecovia-backend.vercel.app/inventory/fetchDetail" ; 
         let token = localStorage.getItem('token') ;
         const options =  {
             method : "POST" , 
@@ -66,7 +66,7 @@ function fetchingDetailSuccess(store){
 //fetchign all inventories
 export function fetchAllStore(){
     return (dispatch) => {
-        let url = "http://localhost:8000/inventory/fetchAllStore" ; 
+        let url = "https://ecovia-backend.vercel.app/inventory/fetchAllStore" ; 
         let token = localStorage.getItem('token') ;
         const options =  {
             method : "GET" , 

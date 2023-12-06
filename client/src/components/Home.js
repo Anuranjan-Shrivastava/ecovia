@@ -102,7 +102,7 @@ class Home extends Component {
         }
         
        //sending api
-        let url = "http://localhost:8000/inventory/addStore" ; 
+        let url = "https://ecovia-backend.vercel.app/inventory/addStore" ; 
         let token = localStorage.getItem('token') ;
         const options =  {
             method : "POST" , 
